@@ -54,8 +54,8 @@ export default function WeightInputModal({ isOpen, onClose, onSubmit, onDelete, 
 
   const title = initialWeight !== undefined ? "Edit Connection Weight" : "Set Connection Weight";
   const description = initialWeight !== undefined
-    ? `Update the distance (weight) in miles between ${node1?.name} and ${node2?.name}.`
-    : `Enter the distance (weight) in miles between ${node1?.name} and ${node2?.name}.`;
+    ? `Update the distance (weight) in kilometers between ${node1?.name} and ${node2?.name}.`
+    : `Enter the distance (weight) in kilometers between ${node1?.name} and ${node2?.name}.`;
   
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
